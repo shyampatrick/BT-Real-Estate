@@ -1,3 +1,9 @@
 {
-  "python.pythonPath": "venv\\Scripts\\python.exe"
+  "python.pythonPath": "venv\\Scripts\\python.exe",
+  "python.linting.pylamaEnabled": true,
+  "python.linting.enabled": true,
+  "files.associations": {
+    "*.yaml": "ansible",
+    "*.html": "django-html"
+  }
 }
