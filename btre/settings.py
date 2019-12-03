@@ -83,9 +83,9 @@ DATABASES = {
     'default': {
         'NAME': 'btredb',
         'ENGINE': 'django.db.backends.mysql',
-        'USER': 'btreapp',
+        'USER': 'root',
         'PASSWORD': 'passw0rd',
-        'HOST': 'localhost'
+        'HOST': '192.168.183.4'
     },
     'sqlite3': {
         'ENGINE': 'django.db.backends.sqlite3',
