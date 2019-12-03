@@ -1,0 +1,290 @@
+- model: listings.listing
+  pk: 1
+  fields:
+    realtor: 1
+    title: 45 Drivewood Circle
+    address: 45 Drivewood Circle
+    city: Norwood
+    state: MA
+    zipcode: '02062'
+    description: Mauris vehicula, ligula a efficitur blandit, libero erat aliquam
+      ex, a iaculis justo neque ac mi. Maecenas vestibulum sit amet dolor sit amet
+      semper. Duis ultricies at lectus at varius. Sed tincidunt cursus augue in pharetra.
+      Nunc sed dignissim nulla. Cras vehicula eleifend arcu rutrum rutrum. Pellentesque
+      habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+      Phasellus ultricies in massa sed vulputate. Suspendisse sit amet sapien risus.
+      Nulla eu sapien aliquet, tristique libero vitae, pulvinar elit. Curabitur mollis
+      placerat felis, eget malesuada neque porta at. Suspendisse condimentum justo
+      nec ornare venenatis. Sed maximus tortor sit amet tempor placerat. Mauris at
+      ligula facilisis, pretium erat quis, volutpat justo. In hac habitasse platea
+      dictumst. Pellentesque suscipit risus sed imperdiet bibendum.
+    price: 49000
+    bedrooms: 3
+    bathrooms: '2.0'
+    garage: 2
+    sqft: 3298
+    lot_size: '2.3'
+    photo_main: photos/2019/11/29/home-1_qqMU8e8.jpg
+    photo_1: photos/2019/11/29/home-inside-1_Debpr1q.jpg
+    photo_2: photos/2019/11/29/home-inside-2_QaIAD07.jpg
+    photo_3: photos/2019/11/29/home-inside-3_Q21KgUd.jpg
+    photo_4: photos/2019/11/29/home-inside-4_ZEKaDlt.jpg
+    photo_5: photos/2019/11/29/home-inside-5_ZHFr2EY.jpg
+    photo_6: photos/2019/11/29/home-inside-6_G0H2RP3.jpg
+    is_published: true
+    list_date: 2019-11-29 12:17:27+00:00
+- model: listings.listing
+  pk: 2
+  fields:
+    realtor: 2
+    title: 18 Jefferson Lane
+    address: 18 Jefferson Lane
+    city: Wouborn
+    state: MA
+    zipcode: 01801
+    description: Mauris vehicula, ligula a efficitur blandit, libero erat aliquam
+      ex, a iaculis justo neque ac mi. Maecenas vestibulum sit amet dolor sit amet
+      semper. Duis ultricies at lectus at varius. Sed tincidunt cursus augue in pharetra.
+      Nunc sed dignissim nulla. Cras vehicula eleifend arcu rutrum rutrum. Pellentesque
+      habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+      Phasellus ultricies in massa sed vulputate. Suspendisse sit amet sapien risus.
+      Nulla eu sapien aliquet, tristique libero vitae, pulvinar elit. Curabitur mollis
+      placerat felis, eget malesuada neque porta at. Suspendisse condimentum justo
+      nec ornare venenatis. Sed maximus tortor sit amet tempor placerat. Mauris at
+      ligula facilisis, pretium erat quis, volutpat justo. In hac habitasse platea
+      dictumst. Pellentesque suscipit risus sed imperdiet bibendum.
+    price: 550000
+    bedrooms: 4
+    bathrooms: '2.5'
+    garage: 1
+    sqft: 3100
+    lot_size: '1.5'
+    photo_main: photos/2019/11/29/home-2.jpg
+    photo_1: photos/2019/11/29/home-inside-1_cea0n8B.jpg
+    photo_2: photos/2019/11/29/home-inside-2_SL4F6nP.jpg
+    photo_3: photos/2019/11/29/home-inside-3_G2rJj2W.jpg
+    photo_4: ''
+    photo_5: ''
+    photo_6: ''
+    is_published: true
+    list_date: 2019-11-29 13:15:12+00:00
+- model: listings.listing
+  pk: 3
+  fields:
+    realtor: 3
+    title: 187 Woodrow Street
+    address: 187 Woodrow Street
+    city: Salem
+    state: MA
+    zipcode: 01815
+    description: Mauris vehicula, ligula a efficitur blandit, libero erat aliquam
+      ex, a iaculis justo neque ac mi. Maecenas vestibulum sit amet dolor sit amet
+      semper. Duis ultricies at lectus at varius. Sed tincidunt cursus augue in pharetra.
+      Nunc sed dignissim nulla. Cras vehicula eleifend arcu rutrum rutrum. Pellentesque
+      habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+      Phasellus ultricies in massa sed vulputate. Suspendisse sit amet sapien risus.
+      Nulla eu sapien aliquet, tristique libero vitae, pulvinar elit. Curabitur mollis
+      placerat felis, eget malesuada neque porta at. Suspendisse condimentum justo
+      nec ornare venenatis. Sed maximus tortor sit amet tempor placerat. Mauris at
+      ligula facilisis, pretium erat quis, volutpat justo. In hac habitasse platea
+      dictumst. Pellentesque suscipit risus sed imperdiet bibendum.
+    price: 580000
+    bedrooms: 3
+    bathrooms: '3.0'
+    garage: 1
+    sqft: 3400
+    lot_size: '1.0'
+    photo_main: photos/2019/11/29/home-3.jpg
+    photo_1: photos/2019/11/29/home-inside-1_DLTuXLT.jpg
+    photo_2: photos/2019/11/29/home-inside-2_dxrz0rA.jpg
+    photo_3: photos/2019/11/29/home-inside-4_Vu9whGX.jpg
+    photo_4: ''
+    photo_5: ''
+    photo_6: ''
+    is_published: true
+    list_date: 2019-11-29 13:18:04+00:00
+- model: listings.listing
+  pk: 4
+  fields:
+    realtor: 2
+    title: 28 Gifford Street
+    address: 28 Gifford Street
+    city: Bedford
+    state: NH
+    zipcode: '03103'
+    description: Mauris vehicula, ligula a efficitur blandit, libero erat aliquam
+      ex, a iaculis justo neque ac mi. Maecenas vestibulum sit amet dolor sit amet
+      semper. Duis ultricies at lectus at varius. Sed tincidunt cursus augue in pharetra.
+      Nunc sed dignissim nulla. Cras vehicula eleifend arcu rutrum rutrum. Pellentesque
+      habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+      Phasellus ultricies in massa sed vulputate. Suspendisse sit amet sapien risus.
+      Nulla eu sapien aliquet, tristique libero vitae, pulvinar elit. Curabitur mollis
+      placerat felis, eget malesuada neque porta at. Suspendisse condimentum justo
+      nec ornare venenatis. Sed maximus tortor sit amet tempor placerat. Mauris at
+      ligula facilisis, pretium erat quis, volutpat justo. In hac habitasse platea
+      dictumst. Pellentesque suscipit risus sed imperdiet bibendum.
+    price: 380000
+    bedrooms: 3
+    bathrooms: '2.5'
+    garage: 2
+    sqft: 2900
+    lot_size: '4.5'
+    photo_main: photos/2019/11/29/home-4.jpg
+    photo_1: photos/2019/11/29/home-inside-1_2tu1nrO.jpg
+    photo_2: photos/2019/11/29/home-inside-5_mYA1kcV.jpg
+    photo_3: ''
+    photo_4: ''
+    photo_5: ''
+    photo_6: ''
+    is_published: true
+    list_date: 2019-11-29 13:19:35+00:00
+- model: listings.listing
+  pk: 5
+  fields:
+    realtor: 1
+    title: 12 United Road
+    address: 12 United Road
+    city: South Hampton
+    state: MA
+    zipcode: 03827
+    description: Mauris vehicula, ligula a efficitur blandit, libero erat aliquam
+      ex, a iaculis justo neque ac mi. Maecenas vestibulum sit amet dolor sit amet
+      semper. Duis ultricies at lectus at varius. Sed tincidunt cursus augue in pharetra.
+      Nunc sed dignissim nulla. Cras vehicula eleifend arcu rutrum rutrum. Pellentesque
+      habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+      Phasellus ultricies in massa sed vulputate. Suspendisse sit amet sapien risus.
+      Nulla eu sapien aliquet, tristique libero vitae, pulvinar elit. Curabitur mollis
+      placerat felis, eget malesuada neque porta at. Suspendisse condimentum justo
+      nec ornare venenatis. Sed maximus tortor sit amet tempor placerat. Mauris at
+      ligula facilisis, pretium erat quis, volutpat justo. In hac habitasse platea
+      dictumst. Pellentesque suscipit risus sed imperdiet bibendum.
+    price: 230000
+    bedrooms: 3
+    bathrooms: '1.5'
+    garage: 1
+    sqft: 1980
+    lot_size: '3.2'
+    photo_main: photos/2019/11/29/home-5.jpg
+    photo_1: photos/2019/11/29/home-inside-1_cZEW5gs.jpg
+    photo_2: photos/2019/11/29/home-inside-2_g6xu6BV.jpg
+    photo_3: photos/2019/11/29/home-inside-3_nL2qDEA.jpg
+    photo_4: ''
+    photo_5: ''
+    photo_6: ''
+    is_published: true
+    list_date: 2019-11-29 13:20:49+00:00
+- model: listings.listing
+  pk: 6
+  fields:
+    realtor: 1
+    title: 33 Essex Circle
+    address: 33 Essex Circle
+    city: Lexintong
+    state: MA
+    zipcode: '01731'
+    description: Mauris vehicula, ligula a efficitur blandit, libero erat aliquam
+      ex, a iaculis justo neque ac mi. Maecenas vestibulum sit amet dolor sit amet
+      semper. Duis ultricies at lectus at varius. Sed tincidunt cursus augue in pharetra.
+      Nunc sed dignissim nulla. Cras vehicula eleifend arcu rutrum rutrum. Pellentesque
+      habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+      Phasellus ultricies in massa sed vulputate. Suspendisse sit amet sapien risus.
+      Nulla eu sapien aliquet, tristique libero vitae, pulvinar elit. Curabitur mollis
+      placerat felis, eget malesuada neque porta at. Suspendisse condimentum justo
+      nec ornare venenatis. Sed maximus tortor sit amet tempor placerat. Mauris at
+      ligula facilisis, pretium erat quis, volutpat justo. In hac habitasse platea
+      dictumst. Pellentesque suscipit risus sed imperdiet testword.
+    price: 780000
+    bedrooms: 5
+    bathrooms: '4.0'
+    garage: 1
+    sqft: 5023
+    lot_size: '1.7'
+    photo_main: photos/2019/11/29/home-6.jpg
+    photo_1: photos/2019/11/29/home-inside-3_mrm6H8v.jpg
+    photo_2: photos/2019/11/29/home-inside-5_fHkvf4u.jpg
+    photo_3: photos/2019/11/29/home-inside-6_Wyp3PcQ.jpg
+    photo_4: ''
+    photo_5: ''
+    photo_6: ''
+    is_published: true
+    list_date: 2019-11-29 13:21:51+00:00
+- model: realtors.realtor
+  pk: 1
+  fields:
+    name: Kyle Brown
+    photo: photos/2019/11/29/kyle_VZDRI1c.jpg
+    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium
+      id purus vitae auctor. Integer posuere nunc id risus varius dictum. Nullam lobortis
+      sodales luctus. Sed rhoncus pulvinar augue, eget sollicitudin orci. Donec eleifend
+      mauris sit amet tortor bibendum, et semper nunc placerat. Praesent quis bibendum
+      orci. Nullam ac diam et justo posuere blandit.
+    phone: 555-555-5555
+    email: kyle@btrealsestate.co
+    is_mvp: true
+    hire_date: 2018-09-25 11:47:04+00:00
+- model: realtors.realtor
+  pk: 2
+  fields:
+    name: Mark Hudson
+    photo: photos/2019/11/29/mark_i6C99Cz.jpg
+    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vestibulum
+      quis elit nec pharetra. Nulla sem justo, ullamcorper at mollis mattis, sollicitudin
+      pulvinar massa. Class aptent taciti sociosqu ad litora torquent per conubia
+      nostra, per inceptos himenaeos. Cras pretium, ex consequat mattis cursus, ante
+      turpis posuere enim, vel ullamcorper neque risus nec ligula. Morbi pretium,
+      massa at pretium tempor, augue tellus congue augue, nec ullamcorper ipsum velit
+      commodo nisi. Vivamus quis iaculis leo, vitae venenatis orci. Nunc eget lectus
+      ut turpis vulputate efficitur eget eu felis. Phasellus ultricies neque dui,
+      eget pellentesque ante luctus in. Nullam accumsan a massa nec vehicula.
+    phone: 444-444-4444
+    email: mark@btrealestate.co
+    is_mvp: false
+    hire_date: 2019-11-29 13:12:47+00:00
+- model: realtors.realtor
+  pk: 3
+  fields:
+    name: Jenny Johnson
+    photo: photos/2019/11/29/jenny_SWpw4UH.jpg
+    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vestibulum
+      quis elit nec pharetra. Nulla sem justo, ullamcorper at mollis mattis, sollicitudin
+      pulvinar massa. Class aptent taciti sociosqu ad litora torquent per conubia
+      nostra, per inceptos himenaeos. Cras pretium, ex consequat mattis cursus, ante
+      turpis posuere enim, vel ullamcorper neque risus nec ligula. Morbi pretium,
+      massa at pretium tempor, augue tellus congue augue, nec ullamcorper ipsum velit
+      commodo nisi. Vivamus quis iaculis leo, vitae venenatis orci. Nunc eget lectus
+      ut turpis vulputate efficitur eget eu felis. Phasellus ultricies neque dui,
+      eget pellentesque ante luctus in. Nullam accumsan a massa nec vehicula.
+    phone: 333-333-3333
+    email: jenny@btrealestate.co
+    is_mvp: false
+    hire_date: 2019-11-29 13:14:14+00:00
+- model: auth.user
+  pk: 1
+  fields:
+    password: pbkdf2_sha256$150000$8f0LvnCPE1Wi$cNICQriwxWHoPDtuEcBz+uz+7zExqedL4zNHnId+oF8=
+    last_login: 2019-12-02 02:50:38.235058+00:00
+    is_superuser: true
+    username: shyam
+    first_name: ''
+    last_name: ''
+    email: sykron@gmail.com
+    is_staff: true
+    is_active: true
+    date_joined: 2019-11-29 03:46:47.585372+00:00
+    groups: []
+    user_permissions: []
+- model: auth.user
+  pk: 2
+  fields:
+    password: pbkdf2_sha256$150000$WwdcaxrkiwBy$5NxNz3L5IFs9DMp294/+fj2cfHHMk3EXGAVip0KGTXE=
+    last_login: 2019-12-02 07:28:15.804855+00:00
+    is_superuser: false
+    username: devc
+    first_name: Dev
+    last_name: Collins
+    email: devc@gmail.com
+    is_staff: false
+    is_active: true
+    date_joined: 2019-12-02 01:30:22.819601+00:00
+    groups: []
+    user_permissions: []
