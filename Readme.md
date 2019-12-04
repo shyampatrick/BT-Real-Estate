@@ -1,6 +1,7 @@
-# Django Demo App
-
-## Bt Real Estate
+Django Demo App
+=
+Bt Real Estate
+-
 
 This app demonstrates basic to intermediate DJango technique and usage. I wrote it as part of a Django course I did over on Packt. It's a good app to learn Django from - I am quite good now. It comes with prebuilt HTML and I worked through the materials and converted it into Django - and coded the views and models and routing with the urls.
 
@@ -10,8 +11,18 @@ The data is seeded as well so no problems with a empty app - the Admin area is t
 
 If you don't need docker to run it please edit the settings (or the load local_settings). Running it is easy - just migrate the db, then:
 
-    python manage.py loaddata seed.json (for db data seed)
+    python manage.py loaddata seed.json
 
 and runserver.
 
 The docker-compose may loop a little before it stabilizes - I need to include a wait for db function.
+
+Please Contact me at:
+
+- shyampatrick@outlook.my (my GitHub email) -or-
+- shyamkumarpatrick@gmail.com (my new professional email) /
+- (or my older email: sykron@gmail.com)
+
+for anything.
+
+*ps: My Web Page will be available soon*
