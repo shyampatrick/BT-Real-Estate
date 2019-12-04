@@ -8,8 +8,10 @@ I included a Dockerfile and docker-compose to run the app easily with a SQL serv
 
 The data is seeded as well so no problems with a empty app - the Admin area is the primary input page, the login is admin, password is password.
 
-If you don't need docker to run it please edit the settings (or uncomment the load local_settings loop and edit the local settings). Running it is easy - just migrate the db, then:
+If you don't need docker to run it please edit the settings (or the load local_settings). Running it is easy - just migrate the db, then:
 
     python manage.py loaddata seed.json (for db data seed)
 
 and runserver.
+
+The docker-compose may loop a little before it stabilizes - I need to include a wait for db function.
