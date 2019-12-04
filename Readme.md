@@ -6,4 +6,10 @@ This app demonstrates basic to intermediate DJango technique and usage. I wrote 
 
 I included a Dockerfile and docker-compose to run the app easily with a SQL server (MySQL 5) - Just run the docker-compose up. It should work fine - I needed some time to configure it but I think it's good now.
 
-The data is seeded as well so no problems with a empty app - the Admin area is the primary input page, the login is shyam, password is passw0rd.
+The data is seeded as well so no problems with a empty app - the Admin area is the primary input page, the login is admin, password is password.
+
+If you don't need docker to run it please edit the settings (or uncomment the load local_settings loop and edit the local settings). Running it is easy - just migrate the db, then:
+
+    python manage.py loaddata seed.json (for db data seed)
+
+and runserver.

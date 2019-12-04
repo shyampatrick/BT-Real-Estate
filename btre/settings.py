@@ -157,7 +157,7 @@ EMAIL_HOST_USER='sykron@gmail.com'
 EMAIL_HOST_PASSWORD='password'
 EMAIL_USE_TLS=True
 
-try:
-    from .local_settings import *
-except ImportError:
-    pass
+# try:
+#     from .local_settings import *
+# except ImportError:
+#     pass
