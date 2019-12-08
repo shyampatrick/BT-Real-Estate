@@ -17,7 +17,7 @@ blocks:
                 - '3.6'
                 - '3.7'
           commands:
-            - sem-version python '3.7'
+            - sem-version python $PYTHON_VERSION
             - checkout
             - python -m pip install --upgrade pip
             - pip install -r requirements_prod.txt
@@ -27,3 +27,6 @@ blocks:
               flake8 . --count --exit-zero --max-complexity=10
               --max-line-length=127 --statistics
             - 'python manage.py runserver 0.0.0.0:8000'
+      env_vars:
+        - name: PYTHON_VERSION
+          value: '3.7'
