@@ -17,7 +17,7 @@ blocks:
                 - '3.6'
                 - '3.7'
           commands:
-            - sem-version python $PYTHON_VERSION
+            - sem-version python 3.7
             - checkout
             - python -m pip install --upgrade pip
             - pip install -r requirements_prod.txt
