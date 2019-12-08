@@ -7,15 +7,7 @@ agent:
 blocks:
   - name: RunServer
     task:
-      jobs:
-        - name: Runserver
-          commands: []
-        - env_vars: null
-          name: Nameless 2
-          commands: []
-        - name: PYTHON_VERSION
-          value: '3.7'
-          commands: []
+      jobs: []
       commands:
         - sem-version python $PYTHON_VERSION
         - checkout
