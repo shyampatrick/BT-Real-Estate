@@ -9,24 +9,16 @@ blocks:
     task:
       jobs:
         - name: Runserver
-          matrix:
-            - env_vars: PYTHON_VERSION
-              values:
-                - '2.7'
-                - '3.5'
-                - '3.6'
-                - '3.7'
+        - env_vars: 
+        		- name: PYTHON_VERSION
+              value: '3.7'
           commands:
             - sem-version python $PYTHON_VERSION
             - checkout
             - python -m pip install --upgrade pip
             - pip install -r requirements_prod.txt
             - pip install flake8
-            - 'flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics'
-            - >-
-              flake8 . --count --exit-zero --max-complexity=10
-              --max-line-length=127 --statistics
-            - 'python manage.py runserver 0.0.0.0:8000'
+            - python manage.py runserver 0.0.0.0:8000
       env_vars:
         - name: PYTHON_VERSION
           value: '3.7'
